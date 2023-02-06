@@ -9,8 +9,6 @@ const RightSide = () => {
                 <div className='relative z-50' style={{zIndex: 3}}>
                 <Image
                     src={right}
-                    width="358px"
-                    height="580px"
                 />
                 </div>
                 <div className='absolute -left-10 bottom-0 z-0' style={{zIndex: 1}}>

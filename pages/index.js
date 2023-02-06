@@ -13,13 +13,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='font-poppins'>
       <Navbar></Navbar>
       <SecondSection></SecondSection>
       <ThirdSection></ThirdSection>
       <FourthSection></FourthSection>
       <FifthSection></FifthSection>
-      <Footer></Footer>
     </div>
   )
 }
