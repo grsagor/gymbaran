@@ -3,7 +3,7 @@ import left from '../LeftSide/left.png'
 const LeftSide = () => {
     return (
         <div>
-            <div className="w-3/4 mx-auto">
+            <div className="w-3/4 mx-auto flex flex-col justify-center items-center">
                 <div>
                     <Image
                         src={left}

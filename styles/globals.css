@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Sporting Grotesque';
+  src: url('../fonts/sgr.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -47,8 +54,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 229, 229, 229;
-    --background-end-rgb: 229, 229, 229;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -102,6 +109,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.font-grotesque {
+  font-family: 'Sporting Grotesque', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

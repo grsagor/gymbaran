@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 
 const menuItems = <>
@@ -11,9 +12,9 @@ const Navbar = () => {
     return (
         <div className="navbar text-black">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">
+                <a className="btn btn-ghost normal-case text-xl font-grotesque leading-9 tracking-widest">
                     <span className="bg-indigo-500 text-white p-2 rounded-lg">Gym</span>
-                    <span className="ml-1">baran</span>
+                    <span className="ml-1 text-indigo-500">baran</span>
                 </a>
             </div>
             <div className="flex-none">
@@ -23,7 +24,7 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                         </button>
                     </label>
-                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52">
                         {menuItems}
                     </ul>
                 </div>

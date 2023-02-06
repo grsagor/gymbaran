@@ -8,7 +8,7 @@ const Brands = () => {
     return (
         <div>
             <h1>Brands</h1>
-            <div className="flex gap-9 items-center">
+            <div className="flex justify-between gap-9 items-center">
                 <div>
                 <Image
                     src={nike}
