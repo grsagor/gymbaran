@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='font-poppins px-0 lg:px-10 relative overflow-hidden'>
+    <div className='font-poppins relative overflow-hidden'>
       <Head>
         <title>Gym baran</title>
       </Head>
@@ -23,11 +23,13 @@ export default function Home() {
           src={bg}
         />
       </div>
-      <Navbar></Navbar>
-      <SecondSection></SecondSection>
-      <ThirdSection></ThirdSection>
-      <FourthSection></FourthSection>
-      <FifthSection></FifthSection>
+      <div className='p-0 lg:p-10'>
+        <Navbar></Navbar>
+        <SecondSection></SecondSection>
+        <ThirdSection></ThirdSection>
+        <FourthSection></FourthSection>
+        <FifthSection></FifthSection>
+      </div>
     </div>
   )
 }
