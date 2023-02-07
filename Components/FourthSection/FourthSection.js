@@ -9,9 +9,9 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const FourthSection = () => {
     return (
-        <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-3 my-6 bg-gradient-to-r from-indigo-600 to-indigo-400 p-12 rounded-2xl text-white mt-10">
+        <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-3 my-6 bg-gradient-to-r from-indigo-500 to-indigo-300 p-12 rounded-2xl text-white mt-10">
             <div className="flex gap-5 w-3/4">
-                <div className="bg-indigo-500 p-4 h-24 w-24 rounded-lg flex items-center">
+                <div className="bg-indigo-400 p-4 h-24 w-24 rounded-lg flex items-center">
                     <Image
                         src={first}
                     />
@@ -27,7 +27,7 @@ const FourthSection = () => {
                 </div>
             </div>
             <div className="flex gap-5 w-3/4">
-                <div className="bg-indigo-400 p-4 h-24 w-24 rounded-lg flex items-center">
+                <div className="bg-indigo-300 p-4 h-24 w-24 rounded-lg flex items-center">
                     <Image
                     src={second}
                 />
@@ -43,7 +43,7 @@ const FourthSection = () => {
                 </div>
             </div>
             <div className="flex gap-5 w-3/4">
-                <div className="bg-indigo-300 p-4 h-24 w-24 rounded-lg flex items-center">
+                <div className="bg-indigo-200 p-4 h-24 w-24 rounded-lg flex items-center">
                     <Image
                     src={third}
                 />
