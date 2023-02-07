@@ -1,16 +1,17 @@
 import Image from 'next/image';
 import left from '../LeftSide/left.png'
+import lines from './lines.png'
 const LeftSide = () => {
     return (
         <div>
-            <div className="w-3/4 mx-auto flex flex-col justify-center items-center">
-                <div>
+            <div className="w-3/4 mx-auto flex flex-col justify-center items-center relative">
+                <div className='relative bottom-0 left-'>
                     <Image
                         src={left}
-                        width="416px"
-                        height="496px"
+                        className=''
                     />
                 </div>
+                
             </div>
         </div>
     );
