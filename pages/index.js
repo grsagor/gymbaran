@@ -14,7 +14,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className='font-poppins relative overflow-hidden'>
+    <div>
+      <div className='block lg:hidden my-3'>
+        <Navbar></Navbar>
+      </div>
+      <div className='font-poppins relative overflow-hidden'>
       <Head>
         <title>Gym baran</title>
       </Head>
@@ -24,12 +28,15 @@ export default function Home() {
         />
       </div>
       <div className='p-0 lg:p-10'>
+        <div className='hidden lg:block'>
         <Navbar></Navbar>
+        </div>
         <SecondSection></SecondSection>
         <ThirdSection></ThirdSection>
         <FourthSection></FourthSection>
         <FifthSection></FifthSection>
       </div>
+    </div>
     </div>
   )
 }
