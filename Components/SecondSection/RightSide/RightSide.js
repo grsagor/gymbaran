@@ -30,7 +30,7 @@ const RightSide = () => {
                     className=""
                 />
                 </div>
-                <div className='absolute w-80 lg:w-96 -right-32 lg:-right-10 bottom-14 z-0'>
+                <div className='absolute w-64 lg:w-96 -right-20 lg:-right-10 bottom-14 z-0'>
                 <Image
                     src={lines}
                     className=""
