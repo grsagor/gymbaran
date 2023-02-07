@@ -5,6 +5,9 @@ import pic1 from './150.png';
 import circle from './circle.png';
 import topright from './topright.png';
 import bottomleft from './bottomleft.png';
+import lines from './lines.png';
+import bigcircle from './bigcircle.png';
+
 
 const RightSide = () => {
     return (
@@ -15,9 +18,21 @@ const RightSide = () => {
                     className="absolute z-50 -right-24 lg:-right-20 -bottom-0"
                 />
                 </div>
-                <div className='absolute w-80 lg:w-96 -right-32 lg:-right-24 bottom-0 z-0'>
+                <div className='absolute w-60 lg:w-96 -right-16 lg:-right-10 bottom-7 z-0'>
+                <Image
+                    src={bigcircle}
+                    className=""
+                />
+                </div>
+                <div className='absolute w-72 lg:w-fit -right-28 lg:-right-24 bottom-0 z-0'>
                 <Image
                     src={background1}
+                    className=""
+                />
+                </div>
+                <div className='absolute w-80 lg:w-96 -right-32 lg:-right-10 bottom-14 z-0'>
+                <Image
+                    src={lines}
                     className=""
                 />
                 </div>
@@ -54,7 +69,7 @@ const RightSide = () => {
                 <div className='absolute z-50 bottom-6 right-36 lg:-bottom-2 lg:right-64'>
                     <Image
                         src={bottomleft}
-                        className='w-60 lg:w-full'
+                        className='w-60 lg:w-100'
                     />
                 </div>                
             </div>
