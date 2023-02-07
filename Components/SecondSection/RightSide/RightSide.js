@@ -11,7 +11,7 @@ import bigcircle from './bigcircle.png';
 
 const RightSide = () => {
     return (
-            <div className='relative w-3/5 lg:w-3/4 mt-60 lg:mt-60'>
+            <div className='relative w-3/5 lg:w-3/4 mt-12 lg:mt-60'>
                 <div className=''>
                 <Image
                     src={right}
