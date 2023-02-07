@@ -34,7 +34,7 @@ const FourthSection = () => {
                 </div>
                 <div>
                     <p className="text-base lg:text-xl font-bold">14 Days sherd challenge</p>
-                    <button className="flex items-cente text-slate-300">
+                    <button className="flex items-cente mt-4 text-slate-300">
                         <span>Learn more</span>
                         <span className="ml-4 flex">
                             <AiOutlineArrowRight/>
@@ -50,7 +50,7 @@ const FourthSection = () => {
                 </div>
                 <div>
                     <p className="text-base lg:text-xl font-bold">Get flat belly in 30 days</p>
-                    <button className="flex items-center text-slate-300">
+                    <button className="flex items-center mt-4 text-slate-300">
                         <span>Learn more</span>
                         <span className="ml-4 flex">
                             <AiOutlineArrowRight/>
