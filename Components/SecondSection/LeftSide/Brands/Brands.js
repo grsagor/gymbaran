@@ -7,7 +7,7 @@ import reebok from '../Brands/reebok.png'
 const Brands = () => {
     return (
         <div>
-            <h1>Brands</h1>
+            <h1>Brands:</h1>
             <div className="flex gap-9 items-center">
                 <div>
                 <Image
